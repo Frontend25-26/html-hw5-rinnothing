@@ -1,1 +1,1 @@
-export const REPO_NAME = '/hw5-rinnothing'
+export const REPO_NAME = '/html-hw5-rinnothing'
