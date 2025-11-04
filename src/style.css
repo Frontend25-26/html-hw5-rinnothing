@@ -16,9 +16,161 @@ body {
     flex-flow: column;
     align-items: center;
     margin: 0;
+
+    width: 1440px;
+    height: 1790px;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
 }
 
 .Content {
     width: 1140px;
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+.header {
+    height: 96px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    margin-bottom: 120px;
+
+    box-sizing: border-box;
+}
+
+.header svg {
+    padding-top: 4px;
+}
+
+.header .button-row {
+    float: right;
+}
+
+.button-row {
+    display: flex;
+    gap: 8px;
+}
+
+.button-row button {
+    height: 48px;
+    border: 1px #98A3AE7A solid;
+    border-radius: 8px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-family: 'JetBrains Mono', Arial;
+    font-size: 14px;
+    line-height: 16px;
+
+    align-items: center;
+    display: flex;
+
+    background-color: white;
+
+    font-weight: 500;
+}
+
+.about {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+
+    margin-bottom: 120px;
+}
+
+.about p {
+    margin-bottom: 40px;
+}
+
+.about img {
+    height: 400px;
+    width: 1140px;
+    border-radius: 8px;
+
+    object-fit: cover;
+}
+
+.experience h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+
+    margin-bottom: 40px;
+}
+
+.experience .work-place {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.work-place h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.work-place h2 + small {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.work-place h3 {
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-bottom: 16px;
+}
+
+.work-place img {
+    float: right;
+    
+    width: 554px;
+    height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+
+    margin-left: 32px;
+}
+
+.work-place p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.work-place p + p {
+    margin-top: 16px;
+}
+
+.footer {
+    clear: right;
+
+    margin-top: 120px;
+    height: 144px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    box-sizing: border-box;
+}
+
+.footer .copyright {
+    float: right;
+
+    font-size: 14px;
+
+    justify-content: baseline;
+    display: flex;
+
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.logo-row {
+    display: flex;
+    gap: 32px;
 }
